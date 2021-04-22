@@ -1,0 +1,145 @@
+html body{
+	padding: 0px;
+	margin: 0px;
+	background-color: #222222;
+}
+
+nav{
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #1e1e1e;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.navButtons{
+	padding: 0.5em 0px 0px 0px;
+	height: 100%;
+	width: auto;
+	align-content: right;
+}
+
+.navButtons a{
+	color: #006EFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.navButtons li{
+	display: inline-block;
+	padding: 0px 0.3em
+}
+
+.navbar{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.container{
+	display: block;
+	text-align: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.container h3{
+	padding-top: 1.5em;
+	color: #ffffff;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: bold;
+}
+
+.container h5{
+	padding-top: 1.5em;
+	padding-bottom: 6em;
+	color: #4f4f4f;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.pic{
+	margin: auto;
+	width: 13em;
+	height: 13em;
+	border-radius: 10em;
+}
+
+.wrapper{
+	display: inline-block;
+}
+
+.wrapper i{
+	transform: scale(2);
+	margin: 1em;
+	color: #ffffff;
+}
+
+.cardWrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.card{
+	background-color: #006EFF !important;
+	margin-top: 10%;
+	height: 15em;
+	width: 15em;
+	border-radius: 10em !important;
+	color: #006EFF;
+	font-family: 'Press Start 2P', cursive;
+}
+.card img{
+	height: 15em;
+	width: 15em;
+	border-radius: 10em !important;
+	border: 3px solid #006EFF;
+	transition: 0.3s;
+}
+
+.card img:hover{
+	filter: brightness(30%);
+	transform: scale(1.1);
+}
+
+.center_writeups{
+	font-family: 'Press Start 2P', cursive;
+	margin-top: 1.5em;
+	text-align: center;
+	color: #ffffff;
+}
+
+.center_writeups td{
+	padding: 0.5em 0px;
+}
+
+.center tr:nth-child(even) {
+  background-color: rgb(0,60,255);
+}
+
+.center tr:nth-child(odd) {
+  background-color: rgb(30,30,30);
+}
+
+.rss_bottom{
+	position: sticky;
+	padding: 0px;
+	margin: 0px;
+	bottom: 0px;
+}
+
+.quote{
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+	padding:0px 5em;
+}
+
+table.center{
+	margin-top: 3em;
+	width: 50%;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
