@@ -2,6 +2,7 @@ html body{
 	padding: 0px;
 	margin: 0px;
 	background-color: #222222;
+	min-height: 100vh;
 }
 
 nav{
@@ -68,8 +69,8 @@ nav{
 }
 
 .wrapper i{
-	transform: scale(2);
-	margin: 1em;
+	transform: scale(2.5);
+	margin: 1.2em;
 	color: #ffffff;
 }
 
@@ -121,12 +122,15 @@ nav{
 }
 
 .rss_bottom{
+	bottom: 100vh;
 	position: sticky;
-	padding: 0px;
-	margin: 0px;
-	bottom: 0px;
 }
-
+@media screen and (min-height: 900px){
+	.rss_bottom{
+		position: sticky;
+		top: 100vh;
+	}
+}
 .quote{
 	color: #ffffff;
 	font-size: 25px;
